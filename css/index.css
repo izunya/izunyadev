@@ -23,10 +23,11 @@ div {
 .hotbar {
     position:fixed;
     right: 5px;
-    img {
-        height: 30px;
-        width: 30px;
-    }
+}
+
+.hotbar img {
+    height: 30px;
+    width: 30px;
 }
 
 .title {
