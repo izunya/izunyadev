@@ -73,18 +73,16 @@ button:hover {
 h2 {
     color: rgb(0, 0, 0, 1);
     text-align: center;
-    position: fixed;
-    top: 20%;
-    left: 50%;
+    position: absolute;
+    top: 20vh;
+    left: 50vw;
     transform: translate(-50%, -50%);
 }
 
 .c_content{
-    width: 15%;
-    height: 5%;
-    position: fixed;
-    top: 30%;
-    left: 50%;
+    position: absolute;
+    top: 35vh;
+    left: 50vw;
     transform: translate(-50%, -50%);
 }
 
