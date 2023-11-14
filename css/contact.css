@@ -20,6 +20,16 @@ div {
     display: block;
 }
 
+.hotbar {
+    position:fixed;
+    right: 5px;
+}
+
+#github {
+    height: 30px;
+    width: 30px;
+}
+
 .title {
     color: rgb(0, 255, 255);
     text-align: center;
