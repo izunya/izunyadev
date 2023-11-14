@@ -56,6 +56,11 @@ button {
     cursor: pointer;
 }
 
+button:hover {
+    border: 5px solid black;
+
+}
+
 .copyright {
     color: rgb(0, 0, 0, 0.5);
     text-align: center;
@@ -65,10 +70,39 @@ button {
     padding: 1rem;
 }
 
-.hidden {
-    color: rgb(0, 0, 0, 0.5);
+h2 {
+    color: rgb(0, 0, 0, 1);
+    text-align: center;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.hidden:hover {
-    color: rgb(0, 255, 255);
+.c_content{
+    width: 15%;
+    height: 5%;
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.c_button {
+    display: block;
+    margin-bottom: 5px;
+    padding: 3px;
+    background-color: rgb(0, 0, 0, 0);
+    color:black;
+    border: 5px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100px;
+}
+
+.c_button:hover {
+    border: 8px solid black;
 }

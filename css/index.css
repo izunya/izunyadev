@@ -56,6 +56,11 @@ button {
     cursor: pointer;
 }
 
+button:hover {
+    border: 5px solid black;
+
+}
+
 .copyright {
     color: rgb(0, 0, 0, 0.5);
     text-align: center;

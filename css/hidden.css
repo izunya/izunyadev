@@ -58,6 +58,11 @@ button {
     cursor: pointer;
 }
 
+button:hover {
+    border: 5px solid black;
+
+}
+
 .copyright {
     color: rgb(0, 0, 0, 0.5);
     text-align: center;
@@ -65,12 +70,4 @@ button {
     bottom: 0;
     width: 100%;
     padding: 1rem;
-}
-
-.hidden {
-    color: rgb(0, 0, 0, 0.5);
-}
-
-.hidden:hover {
-    color: rgb(0, 255, 255);
 }
