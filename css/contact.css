@@ -23,11 +23,10 @@ div {
 .hotbar {
     position:fixed;
     right: 5px;
-}
-
-#github {
-    height: 30px;
-    width: 30px;
+    img {
+        height: 30px;
+        width: 30px;
+    }
 }
 
 .title {
