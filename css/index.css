@@ -55,7 +55,7 @@ div {
     left: 10px;
 }
 
-button {
+.b_list button {
     display: block;
     margin-bottom: 5px;
     padding: 10px;
@@ -68,7 +68,7 @@ button {
     font-weight: bold;
 }
 
-button:hover {
+.b_list button:hover {
     border: 5px solid black;
 
 }
