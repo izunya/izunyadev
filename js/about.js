@@ -18,3 +18,11 @@ document.querySelectorAll('.b_list button').forEach(function (button) {
         this.style.border = '3px solid black';
     });
 });
+
+document.getElementById("age").innerHTML = "04/10/27 ( " + (new Date().getFullYear() - 2004) + " )";
+
+birthday = new Date(2004, 10, 27);
+
+if(new Date().getMonth() == birthday.getMonth() && new Date().getDate() == birthday.getDate()){
+    document.getElementById("age").innerHTML = "04/10/27 ( " + (new Date().getFullYear() - 2004) + " )" + "\nHappy Birthday!!!";
+}

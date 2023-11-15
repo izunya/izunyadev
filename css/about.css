@@ -21,26 +21,104 @@ div {
 }
 
 .hotbar {
-    position:fixed;
+    position: fixed;
     right: 5px;
 }
 
 .hotbar img {
     height: 30px;
     width: 30px;
-    
+
 }
 
-.title {
-    color: rgb(0, 255, 255);
-    text-align: center;
-    font-size: 50px;
-    position: fixed;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.grd { 
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(95deg, rgba(187, 69, 250, 0.6) 0%, rgba(255, 128, 213, 0.6) 100%);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
 }
 
+.a_list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.a_list .title {
+    display: flex;
+    background: black;
+    border-radius: 86px;
+    height: 86px;
+    align-items: center;
+    margin: 12px;
+}
+
+.a_list .title img {
+    border-radius: 64px;
+    width: 64px;
+    height: 64px;
+    margin: 6px;
+}
+
+.a_list .t_div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    align-content: flex-start;
+    margin-left: 6px;
+    margin-right: 24px;
+}
+
+.t_div h1 {
+    color: white;
+    line-height: 0px;
+    font-size: 26px;
+    font-weight: 700;
+    text-shadow: 0 0 black;
+}
+
+.info .item {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 48px;
+    border-radius: 24px;
+    background: black;
+    margin: 8px;
+}
+
+.item p {
+    color: white;
+    margin-left: 4px;
+    margin-right: 16px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    text-shadow: 0 0 black;
+    text-decoration: none;
+    font-weight: 500 !important;
+    font-size: 16px;
+}
+
+.item .c {
+    width: 36px;
+    height: 36px;
+    background: #ee9191;
+    border-radius: 36px;
+    margin: 6px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.c img {
+    width: 18px;
+    height: 100%;
+}
 
 .background {
     background-color: rgba(93, 60, 146, 0.5);
@@ -51,7 +129,7 @@ div {
 }
 
 .b_list {
-    position:fixed;
+    position: fixed;
     bottom: 50px;
     left: 10px;
 }
