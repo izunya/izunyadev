@@ -107,7 +107,7 @@ div {
 .item .c {
     width: 36px;
     height: 36px;
-    background: #ee9191;
+    background: #06781d;
     border-radius: 36px;
     margin: 6px;
     display: flex;
@@ -116,8 +116,10 @@ div {
 }
 
 .c img {
-    width: 18px;
-    height: 100%;
+    width: 25px;
+    height: 25px;
+    border-radius: 64px;
+    margin: 5px;
 }
 
 .background {
