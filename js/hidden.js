@@ -17,4 +17,7 @@ document.querySelectorAll('.b_list button').forEach(function (button) {
     button.addEventListener('mouseout', function () {
         this.style.border = '3px solid black';
     });
+    button.addEventListener('click', function () {
+        this.style.border = '3px solid black';
+    })
 });

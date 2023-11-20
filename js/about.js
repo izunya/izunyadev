@@ -17,6 +17,9 @@ document.querySelectorAll('.b_list button').forEach(function (button) {
     button.addEventListener('mouseout', function () {
         this.style.border = '3px solid black';
     });
+    button.addEventListener('click', function () {
+        this.style.border = '3px solid black';
+    })
 });
 
 document.getElementById("age").innerHTML = "04/10/27 ( " + (new Date().getFullYear() - 2004) + " )";
