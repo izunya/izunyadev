@@ -42,7 +42,7 @@ div {
 }
 
 .background {
-    background: linear-gradient(120deg, rgba(25, 0, 250, 0.5) 0%, rgba(255, 100, 255, 0.5) 100%) no-repeat;
+    background: linear-gradient(45deg, rgba(25, 0, 250, 0.5) 0%, rgba(255, 23, 255, 0.2) ) no-repeat;
     justify-content: center;
     align-content: center;
     background-size: cover;
