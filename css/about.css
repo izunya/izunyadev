@@ -130,9 +130,9 @@ div {
 }
 
 .b_list {
-    position: fixed;
-    bottom: 50px;
-    left: 10px;
+    position:fixed;
+    bottom: 10%;
+    right: 2%;
 }
 
 .b_list button {
